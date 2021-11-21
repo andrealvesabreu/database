@@ -1,0 +1,22 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"Inspire\\Database\\" : "src"
+		}
+	},
+	"name" : "inspire/database",
+	"type" : "library",
+	"description" : "Eloquent ORM abstraction",
+	"license" : "MIT",
+	"require" : {
+		"php" : ">=7.4",
+		"illuminate/database" : "8.73.1",
+		"inspire/validator" : "~0.1"
+	},
+	"minimum-stability" : "stable",
+	"authors" : [{
+			"name" : "André Alves",
+			"email" : "aluisalves0@gmail.com"
+		}
+	]
+}
